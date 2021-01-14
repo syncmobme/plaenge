@@ -27,7 +27,9 @@
 <plugin name="ionic-plugin-keyboard" spec="^2.2.1"/>
 <plugin name="cordova-plugin-dialogs" spec="^1.2.1"/>
 
-<plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
+<!--<plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>-->
+<!-- fork  de correcao para backbutton -->
+<plugin name="cordova-plugin-splashscreen" spec="https://github.com/prageeth/cordova-plugin-splashscreen.git#v6" source="git" />
 
 <!-- 1.11.1 | alterar notificationTemplate framework7.js -->
 <plugin name="phonegap-plugin-push" spec="2.1.0">
