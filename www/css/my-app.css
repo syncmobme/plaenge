@@ -346,7 +346,7 @@ ul#alertavisitanteshome-cont {
 	display: none!important;
 }
 .toolbar.tabbar {
-	background: #23201d!important;
+	background: #9a1914!important;
 }
 .badgecomuncondominio, .badgecomunportaria, .badgecomunportariahome, .badgecomunmorador {
     height: auto!important;
@@ -410,10 +410,7 @@ a.tab-link.active{
 	left: inherit!important;
 }
 .navbar-inner{
-	background: #9a1914;
-    background: -moz-linear-gradient(-45deg, #9a1914 0%, #d2211a 100%);
-    background: -webkit-linear-gradient(-45deg, #9a1914 0%,#d2211a 100%);
-    background: linear-gradient(135deg, #9a1914 0%,#d2211a 100%);
+	background: #23201d;
 }
 .navbar .center, .subnavbar .center{
 	font-size: 15px!important;
@@ -665,6 +662,9 @@ color: #fff;
     background-color: #5cb85c;
 }
 /* login */
+.button.button-fill.bg-red, .button.button-fill.color-red {
+    background: #9a1914 !important;
+}
 .login-screen-content .login-screen-title{
 	margin: 20px auto!important;
 }
@@ -948,7 +948,7 @@ position: fixed;
 .item-cadastros {
     display: block;
     width: 100%;
-    color: #23201d!important;
+    color: #9a1914!important;
 }
 .list-cadastros{
 	border-bottom: solid #e2e2e2 1px;
@@ -993,7 +993,7 @@ position: fixed;
     padding-top: 30px;
 }
 .color-black i.icon, i.icon.color-black {
-    color: #23201d;
+    color: #9a1914;
 }
 #redesSociais i h5 {
   font-size: 14px;
@@ -1098,7 +1098,7 @@ transform: translate(-50%,-50%);
 	padding-right: 10px;
 }
 .theme-red .navbar, .navbar.theme-red, .theme-red .toolbar, .toolbar.theme-red, .theme-red .subnavbar, .subnavbar.theme-red {
-    background-color: #23201d;
+    background-color: #9a1914;
 }
 /* submenu */
 .submenu{
@@ -1242,7 +1242,7 @@ transform: translate(-50%,-50%);
 	z-index: 9;
 	color: white;
 	font-size: 14px;
-	background-color: #23201d;
+	background-color: #9a1914;
 }
 .totaldistanciahome {
 	height: 40px;
