@@ -4457,7 +4457,7 @@ function livroocorrenciascont(id,push,eq){
                         '</li>'+
                       '</ul>'+
                     '</div>'+
-                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-indigo button-full">ENVIAR</a></div>';
+                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-red button-full">ENVIAR</a></div>';
             
             $('.resp-ocorrencias-cont').html(dataresp);
 
@@ -5686,7 +5686,7 @@ function pautacont(id){
                                     '</li>'+
                                   '</ul>'+
                                 '</div>'+
-                                '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-indigo button-full">ENVIAR</a></div>';
+                                '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-red button-full">ENVIAR</a></div>';
                         
                         $('.resppauta-cont').html(dataresp);
             
@@ -6136,22 +6136,22 @@ function enquetesresultado(id){
                             stylepercent = "width: calc("+auxTotal.toFixed(0)+"% - 40px);"
                         }
                         if (i == 0) {
-                            colorOp = "bg-deeporange";
+                            colorOp = "bg-red";
                         }
                         if (i == 1) {
-                            colorOp = "bg-lightgreen";
+                            colorOp = "bg-red";
                         }
                         if (i == 2) {
-                            colorOp = "bg-amber";
+                            colorOp = "bg-red";
                         }
                         if (i == 3) {
-                            colorOp = "bg-purple";
+                            colorOp = "bg-red";
                         }
                         if (i == 4) {
-                            colorOp = "bg-brown";
+                            colorOp = "bg-red";
                         }
                         dataenquetes += '<li>'+
-                                            '<label class="label-radio label-radio-enquete item-content bg-blue">'+
+                                            '<label class="label-radio label-radio-enquete item-content bg-graylight">'+
                                               '<div class="item-media item-media-enquete">'+auxTotal.toFixed(0)+'%</div>'+
                                               '<div class="item-inner bg-enquetes-votos">'+
                                                 '<div class="item-title item-title-visitante">'+data.enquetes.enqueteop[i].nomeEnqueteOpcoes+'</div>'+
@@ -9635,7 +9635,7 @@ function comuncomunicadocont(id,push,eq){
                         '</li>'+
                       '</ul>'+
                     '</div>'+
-                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-indigo button-full">ENVIAR</a></div>';
+                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-red button-full">ENVIAR</a></div>';
             
             $('.resp-cont').html(dataresp);
 
@@ -10658,7 +10658,7 @@ function comunportariacont(id,push,eq){
                         '</li>'+
                       '</ul>'+
                     '</div>'+
-                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-indigo button-full">ENVIAR</a></div>';
+                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-red button-full">ENVIAR</a></div>';
             
             $('.resp-cont').html(dataresp);
 
@@ -11530,7 +11530,7 @@ function comunmoradorcont(id,push,eq){
                         '</li>'+
                       '</ul>'+
                     '</div>'+
-                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-indigo button-full">ENVIAR</a></div>';
+                    '<div class="content-block"><a href="#" id="butinserirresp" onclick="butinserirresp()" class="button button-big button-fill button-raised color-red button-full">ENVIAR</a></div>';
             
             $('.resp-cont').html(dataresp); 
 
